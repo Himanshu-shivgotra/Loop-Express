@@ -16,30 +16,27 @@ function Features() {
             <p className="text-gray-600 dark:text-gray-300">Our mission is to inspire and empower individuals on their journey to health and wellness, no matter their fitness level, background, or goals. We believe everyone deserves the tools, guidance, and support to reach their full potential. Together, we’re building a community where progress is celebrated, challenges are embraced, and every step forward brings us closer to a healthier, happier world..</p>
           </div>
           <div
-            className="mt-16 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 text-gray-600  sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4"
+            className="mt-16 grid divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4 shadow-lg"
           >
             <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-400/10">
               <div className="relative space-y-8 py-12 p-8">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
+                  src="https://cdn-icons-png.flaticon.com/512/992/992651.png"
                   className="w-12"
                   width="512"
                   height="512"
-                  alt="burger illustration"
+                  alt="workout illustration"
                 />
-
                 <div className="space-y-2">
-                  <h5
-                    className="text-xl font-semibold text-gray-700 transition group-hover:text-[#ff7722]"
-                  >
-                    First feature
+                  <h5 className="text-xl font-semibold text-gray-700 transition group-hover:text-[#ff7722]">
+                    Strength Training
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Build muscle and strength with structured resistance training plans.
                   </p>
                 </div>
                 <a href="#" className="flex items-center justify-between group-hover:text-[#ff7722]">
-                  <span className="text-sm">Read more</span>
+                  <span className="text-sm">Explore Plans</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                     <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
                   </svg>
@@ -49,25 +46,22 @@ function Features() {
             <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
               <div className="relative space-y-8 py-12 p-8">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
+                  src="https://cdn-icons-png.flaticon.com/512/992/992634.png"
                   className="w-12"
                   width="512"
                   height="512"
-                  alt="burger illustration"
+                  alt="yoga illustration"
                 />
-
                 <div className="space-y-2">
-                  <h5
-                    className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]"
-                  >
-                    Second feature
+                  <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]">
+                    Yoga & Flexibility
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Enhance flexibility and reduce stress with calming yoga routines.
                   </p>
                 </div>
                 <a href="#" className="flex items-center justify-between group-hover:text-[#ff7722]">
-                  <span className="text-sm">Read more</span>
+                  <span className="text-sm">Join Classes</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                     <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
                   </svg>
@@ -77,57 +71,47 @@ function Features() {
             <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
               <div className="relative space-y-8 py-12 p-8">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png"
+                  src="https://cdn-icons-png.flaticon.com/512/992/992678.png"
                   className="w-12"
                   width="512"
                   height="512"
-                  alt="burger illustration"
+                  alt="cycling illustration"
                 />
-
                 <div className="space-y-2">
-                  <h5
-                    className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]"
-                  >
-                    Third feature
+                  <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]">
+                    Cycling Routines
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Improve endurance and stamina with cycling workouts and tracking.
                   </p>
                 </div>
                 <a href="#" className="flex items-center justify-between group-hover:text-[#ff7722]">
-                  <span className="text-sm">Read more</span>
+                  <span className="text-sm">Start Cycling</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                     <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
                   </svg>
                 </a>
               </div>
             </div>
-            <div
-              className="group relative bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10"
-            >
-              <div
-                className="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800"
-              >
+            <div className="group relative bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
+              <div className="relative space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
+                  src="https://cdn-icons-png.flaticon.com/512/992/992684.png"
                   className="w-12"
                   width="512"
                   height="512"
-                  alt="burger illustration"
+                  alt="nutrition illustration"
                 />
-
                 <div className="space-y-2">
-                  <h5
-                    className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]"
-                  >
-                    More features
+                  <h5 className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-[#ff7722]">
+                    Nutrition & Diet
                   </h5>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Stay on track with personalized meal plans and nutrition tracking.
                   </p>
                 </div>
                 <a href="#" className="flex items-center justify-between group-hover:text-[#ff7722]">
-                  <span className="text-sm">Read more</span>
+                  <span className="text-sm">See Plans</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                     <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
                   </svg>
@@ -135,6 +119,7 @@ function Features() {
               </div>
             </div>
           </div>
+
         </>
 
       </Container>
