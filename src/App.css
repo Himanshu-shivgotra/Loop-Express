@@ -1,0 +1,8 @@
+/* In your CSS file or inline styles
+.mega-menu-dropdown-toggle > svg {
+    display: none !important;
+} */
+
+.snap-mandatory {
+    border-radius: 0px !important;
+}
