@@ -17,7 +17,7 @@ const ActivitySummary = () => {
                 bgcolor: '#2F363F',
                 color: 'white',
                 height: '100%',
-                width: { xs: '100%', sm: '100%', md: '50rem' },
+                width: { xs: '100%', sm: '40rem', md: '50rem' },
                 mx: 'auto',
                 mb: 3,
             }}

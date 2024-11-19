@@ -20,7 +20,7 @@ const TrophyImg = styled('img')({
 const Achievement = () => {
 
     return (
-        <Card className='w-[22rem] lg:w-[20rem]' sx={{ position: "relative", bgcolor: "#2F363F", color: "white" }} >
+        <Card className='w-[100%] lg:w-[20rem]' sx={{ position: "relative", bgcolor: "#2F363F", color: "white" }} >
             <CardContent>
                 <Typography variant='h6' sx={{ lettterSpacing: ".25px" }}>
                     Achieve With LooP Fitness
