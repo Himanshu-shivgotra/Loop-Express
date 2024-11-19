@@ -13,7 +13,7 @@ const COLORS = ["#4CAF50", "#FF9800", "#E91E63", "#2196F3"];
 
 const RevenueBreakdown = () => {
     return (
-        <Card sx={{ bgcolor: '#2F363F', color: 'white', height: '100%', width: { xs: '100%', sm: '40rem', md: '20rem' }, }}>
+        <Card sx={{ bgcolor: '#2F363F', color: 'white', height: '100%', width: { xs: '19rem', sm: '40rem', md: '20rem' }, }}>
             <CardContent>
                 <Typography variant="h6" gutterBottom>
                     Revenue Breakdown

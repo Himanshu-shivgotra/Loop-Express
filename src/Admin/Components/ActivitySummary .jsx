@@ -17,7 +17,7 @@ const ActivitySummary = () => {
                 bgcolor: '#2F363F',
                 color: 'white',
                 height: '100%',
-                width: { xs: '100%', sm: '40rem', md: '50rem' },
+                width: { xs: '19rem', sm: '40rem', md: '50rem' },
                 mx: 'auto',
                 mb: 3,
             }}
@@ -26,7 +26,7 @@ const ActivitySummary = () => {
                 <Typography variant="h6" gutterBottom>
                     Activity Summary
                 </Typography>
-                <ResponsiveContainer width="100%" height={300}>
+                <ResponsiveContainer height={300}>
                     <LineChart data={activityData}>
                         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                         <XAxis dataKey="month" stroke="white" />

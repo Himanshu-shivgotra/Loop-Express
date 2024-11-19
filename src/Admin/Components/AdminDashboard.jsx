@@ -22,12 +22,12 @@ const AdminDashboard = () => {
                 </Grid2>
 
                 {/* Activity Summary Chart */}
-                <Grid2 item xs={12} sm={6} md={8} >
+                <Grid2 >
                     <ActivitySummary />
                 </Grid2>
 
                 {/* Revenue Breakdown Chart */}
-                <Grid2 item xs={12} sm={6} md={8}>
+                <Grid2 >
                     <RevenueBreakdown />
                 </Grid2>
 
