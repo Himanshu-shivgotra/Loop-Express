@@ -5,7 +5,7 @@ function Footer() {
     <div className="relative">
       <div className="container p-8 mx-auto xl:px-0">
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 md:grid-cols-2">
             <div>
               <Link
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"

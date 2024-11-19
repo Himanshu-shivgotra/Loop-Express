@@ -2,15 +2,16 @@ import { MegaMenu, Navbar } from 'flowbite-react';
 import { Link } from 'react-router-dom';
 import { FaSearch, FaCartArrowDown, FaUserCircle } from "react-icons/fa";
 import "../App.css";
+import useStickyNavbar from "../utils/CustomHooks/useStickyNavbar"
 import Container from '../CommonComponents/Container';
 
 
 function MegaMenuComp() {
+    const isFixed = useStickyNavbar(50);
     return (
-        <Container className={"!py-0"}>
-            <Navbar fluid rounded className="w-full bg-white relative">
-                <div className="mx-auto flex items-center justify-between w-full">
-
+        <div className={""}>
+            <Navbar fluid rounded className={`w-full bg-white relative z-20 ${isFixed ? "fixed top-0 left-0 right-0 shadow-lg" : ""}`}>
+                <div className="mx-auto relative flex items-center justify-between w-full">
                     {/* Logo Section */}
                     <Navbar.Brand href="/">
                         <div className="flex items-center space-x-2">
@@ -22,7 +23,7 @@ function MegaMenuComp() {
                         </div>
                     </Navbar.Brand>
 
-                    <div className="space-x-7 text-sm font-semibold hidden md:flex">
+                    <div className="space-x-6 px-2 text-sm font-semibold hidden md:flex">
                         <Link to="/" className="hover:text-orange-400">WORKOUTS</Link>
                         <Link to="/articles" className="hover:text-orange-400">ARTICLES</Link>
 
@@ -58,8 +59,8 @@ function MegaMenuComp() {
                     </div>
 
                     {/* Right-side Icons  */}
-                    <div className="flex items-center space-x-6 text-2xl">
-                        <Link to={"/register"} className="hover:text-orange-400"><FaUserCircle /></Link>
+                    <div className=" ml-2 flex items-center space-x-5 text-2xl">
+                        <Link to={"/signin"} className="hover:text-orange-400"><FaUserCircle /></Link>
                         <Link to="/" className="hover:text-orange-400"><FaSearch /></Link>
                         <Link to="/" className="hover:text-orange-400"><FaCartArrowDown /></Link>
                     </div>
@@ -79,7 +80,7 @@ function MegaMenuComp() {
 
                         {/* Mobile Dropdown Section */}
                         <MegaMenu.Dropdown className="mt-2 py-0" toggle={<span className="block py-2 text-gray-800 hover:text-orange-400">SHOP</span>}>
-                            <ul className="grid grid-cols-4 gap-6 p-6 bg-white-200 text-gray-800 shadow-lg leading-7">
+                            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 bg-white-200 text-gray-800 shadow-lg leading-7">
                                 {/* Dropdown Categories */}
                                 <div>
                                     <h3 className="font-bold text-lg mb-2">PROTEIN</h3>
@@ -108,7 +109,7 @@ function MegaMenuComp() {
                     </div>
                 </Navbar.Collapse>
             </Navbar>
-        </Container>
+        </div>
     );
 }
 

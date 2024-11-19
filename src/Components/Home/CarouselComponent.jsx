@@ -7,11 +7,11 @@ export function CarouselComponent() {
     const imgArr = [
         {
             key: 1,
-            imgUrl: "https://images4.alphacoders.com/112/thumb-1920-1128335.jpg"
+            imgUrl: "https://burst.shopifycdn.com/photos/core-strength-fitness.jpg?width=1000&format=pjpg&exif=0&iptc=0"
         },
         {
             key: 2,
-            imgUrl: "https://images4.alphacoders.com/112/thumb-1920-1128335.jpg"
+            imgUrl: "https://www.shutterstock.com/image-photo/side-profile-male-female-running-260nw-2474114549.jpg"
         },
         {
             key: 3,
@@ -29,7 +29,7 @@ export function CarouselComponent() {
     return (
         <Container>
             <div className=" h-[50vh]  md:h-full rounded-none">
-                <Carousel className="sm:h-[25rem] md:h-[35rem] overflow-hidden relative rounded-none">{
+                <Carousel className="sm:h-[25rem] md:h-[35rem] overflow-hidden relative rounded-none ">{
                     imgArr.map((img, index) => (
                         <img src={img.imgUrl} key={index} alt="img" className="rounded-none" />
                     ))
